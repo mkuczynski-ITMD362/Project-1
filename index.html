@@ -6,10 +6,11 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link rel="stylesheet" media="screen" href="css/screen.css" />
   	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script async src="js/signup.js"></script>
 	</head>
 	<body>
 		<h1> Sign up </h1> <!-- Update this later -->
-		<form>
+		<form name="signup_form" method="get" action="#null" autocomplete="on" onsubmit="inputValues()">
 			<fieldset>
 				<label>Username: </label>
 				<input type="text" name="userName" placeholder="Username">
@@ -21,7 +22,7 @@
 				<input type="text" name="email" placeholder="JohnSmith@mail.com">
 				<label>Phone Number: </label>
 				<input type="text" name="phone" placeholder="(xxx)-xxx-xxxx">
-				<input type="submit" name="submitButton" value="Sign Up!">
+				<input type="submit" value="Sign Up!">
 			</fieldset>
 		</form>
 	</body>

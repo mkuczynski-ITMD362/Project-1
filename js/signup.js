@@ -14,10 +14,6 @@ function inputValues()
 	{
 		alert("Please Enter a valid name");
 	}
-	else if(phoneNum=="")
-	{
-		alert("Please Enter a Phone number");
-	}
 		else if(emailAd=="")
 	{
 		alert("Please Enter an email address");
@@ -32,4 +28,13 @@ function inputValues()
 		alert("Please enter a password with 8 characters or more.")
 	}
 
+	if(phoneNum=="")
+	{
+		alert("Please Enter a Phone number");
+	}
+	else if(phoneNum.length!=10)
+	{
+		alert("Please enter a valid 10 digit phone number");
+	}
+	
 }

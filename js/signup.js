@@ -10,20 +10,26 @@ function inputValues()
 	{
 		alert("Please Enter a username");
 	}
-	else if(pass=="")
-	{
-		alert("Please Enter a password");
-	}
 	else if(name=="")
 	{
 		alert("Please Enter a valid name");
-	}
-	else if(emailAd=="")
-	{
-		alert("Please Enter an email address");
 	}
 	else if(phoneNum=="")
 	{
 		alert("Please Enter a Phone number");
 	}
+		else if(emailAd=="")
+	{
+		alert("Please Enter an email address");
+	}
+
+	if(pass=="")
+	{
+		alert("Please Enter a password");
+	}
+	else if(pass.length<8)
+	{
+		alert("Please enter a password with 8 characters or more.")
+	}
+
 }

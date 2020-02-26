@@ -1,11 +1,12 @@
 @media screen and (min-width:420px){
 	body{
 		background-color: #fcf0d2;
-		font-family: 'Spartan';
+		font-family: 'Spartan', bold;
 		text-align: center;
 	}
 	h1{
 		color: #444469;
+		font-weight: 700;
 	}
 	img{
 		margin-top: 1.5em;

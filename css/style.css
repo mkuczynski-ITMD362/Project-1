@@ -1,6 +1,6 @@
 @media screen and (min-width:420px){
 	body{
-		background-color: #a1f6ff;
+		background-color: #060516;
 		font-family: 'Spartan';
 		text-align: center;
 	}
@@ -29,11 +29,10 @@
 		text-align: center;
 	}
 	form{
-		width: 90%;
+		width: 80%;
 		margin: auto;
-		background-color: white;
-		box-shadow: 15px 15px #919191;
-		z-index: 1;
+		background-color: #f5ffe0;
+		box-shadow: 12px 12px 4px #85f857;
 
 	}
 }

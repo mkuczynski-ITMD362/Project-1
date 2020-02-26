@@ -1,12 +1,21 @@
 @media screen and (min-width:420px){
+	body{
+		background-color: #a1f6ff;
+		font-family: 'Spartan';
+	}
+	h1{
+		text-align: center;
+	}
 	label{
 		display: block;
 		margin: auto;
 		width: 10em;
+		margin-bottom: 0.2em;
 	}
 	input{
 		display: block;
 		margin: auto;
 		width: 10em;
+		margin-bottom: 1.1em;
 	}
 }

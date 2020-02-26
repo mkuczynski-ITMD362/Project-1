@@ -1,0 +1,12 @@
+@media screen and (min-width:420px){
+	label{
+		display: block;
+		margin: auto;
+		width: 10em;
+	}
+	input{
+		display: block;
+		margin: auto;
+		width: 10em;
+	}
+}

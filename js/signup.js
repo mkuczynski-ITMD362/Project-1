@@ -1,38 +1,28 @@
 function inputValues()
 {
-	var user = document.forms["signup_form"]["userName"].value;
-	var pass = document.forms["signup_form"]["password"].value;
-	var name = document.forms["signup_form"]["fullName"].value;
-	var emailAd = document.forms["signup_form"]["email"].value;
-	var phoneNum = document.forms["signup_form"]["phone"].value;
+	var fullName = document.forms["signup_form"]["fullName"].value;
+	var email = document.forms["signup_form"]["email"].value;
+	var phone = document.forms["signup_form"]["phone"].value;
+	var shoeSize = document.forms["signup_form"]["shoeSize"].value;
+	var ballWeight = document.forms["signup_form"]["ballWeight"].value;
 
-	if(user=="")
+	if(fullName=="")
 	{
-		alert("Please Enter a username");
+		alert("Please Enter your Name");
 	}
-	else if(name=="")
+	else if(email=="")
 	{
-		alert("Please Enter a valid name");
+		alert("Please Enter your Email Address");
 	}
-		else if(emailAd=="")
+		else if(shoeSize=="")
 	{
-		alert("Please Enter an email address");
+		alert("Please Enter your Shoe Size");
 	}
-
-	if(pass=="")
+	else if(ballWeight=="")
 	{
-		alert("Please Enter a password");
+		alert("Please Enter your Ball Weight");
 	}
-	else if(pass.length<8)
-	{
-		alert("Please enter a password with 8 characters or more.")
-	}
-
-	if(phoneNum=="")
-	{
-		alert("Please Enter a Phone number");
-	}
-	else if(phoneNum.length!=10)
+	else if(phone.length!=10)
 	{
 		alert("Please enter a valid 10 digit phone number");
 	}

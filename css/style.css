@@ -2,20 +2,38 @@
 	body{
 		background-color: #a1f6ff;
 		font-family: 'Spartan';
-	}
-	h1{
 		text-align: center;
 	}
 	label{
 		display: block;
 		margin: auto;
-		width: 10em;
+		
 		margin-bottom: 0.2em;
+		font-size: 1.3em;
 	}
 	input{
 		display: block;
 		margin: auto;
-		width: 10em;
 		margin-bottom: 1.1em;
+		width: 75%;
+		font-size: 1.3em;
+		text-align: center;
+	}
+	input[type="submit"]{
+		width: 33%;
+	}
+	input[type="text"]::placeholder{
+		text-align: center;
+	}
+		input[type="password"]::placeholder{
+		text-align: center;
+	}
+	form{
+		width: 90%;
+		margin: auto;
+		background-color: white;
+		box-shadow: 15px 15px #919191;
+		z-index: 1;
+
 	}
 }

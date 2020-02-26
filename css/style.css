@@ -1,13 +1,16 @@
 @media screen and (min-width:420px){
 	body{
-		background-color: #060516;
+		background-color: #fcf0d2;
 		font-family: 'Spartan';
 		text-align: center;
+	}
+	h1{
+		color: #444469;
 	}
 	label{
 		display: block;
 		margin: auto;
-		
+		color: #444469;
 		margin-bottom: 0.2em;
 		font-size: 1.3em;
 	}
@@ -18,9 +21,11 @@
 		width: 75%;
 		font-size: 1.3em;
 		text-align: center;
+		color: #6868ff;
 	}
 	input[type="submit"]{
 		width: 33%;
+		box-shadow: 5px 5px 3px #9c7bb2;
 	}
 	input[type="text"]::placeholder{
 		text-align: center;
@@ -28,11 +33,15 @@
 		input[type="password"]::placeholder{
 		text-align: center;
 	}
+	input::placeholder{
+		color: #ef90d2;
+	}
 	form{
 		width: 80%;
 		margin: auto;
-		background-color: #f5ffe0;
-		box-shadow: 12px 12px 4px #85f857;
+		background-color: #f7d2ec;
+		box-shadow: 12px 12px 6px #9c7bb2;
+		border: 1px solid #9c7bb2;
 
 	}
 }
